@@ -8,5 +8,5 @@ run_with_ngrok(app)
 def index():
     return render_template('index.html')
 
-if _name== 'main_':
+if __name__== 'main_':
     app.run()
